@@ -67,6 +67,5 @@ model.fit(X_train, Y_train)
 #print parameters
 print(f"intercepto (b): {model.intercept_} ")
 print(f"pendiente (w): {model.coef_} ")
-
-
+#end 
 
