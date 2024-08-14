@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
 #read dates
-train = pd.read_csv('./train.csv')
-test = pd.read_csv('./test.csv')
+train = pd.read_csv('regresion lineal/project_house_price/train.csv')
+test = pd.read_csv('regresion lineal/project_house_price/test.csv')
 
 train.head(3)
 train.columns #see the dates in the colums 
